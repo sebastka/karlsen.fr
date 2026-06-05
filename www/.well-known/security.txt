@@ -1,0 +1,15 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:sebastian@karlsen.fr
+Expires: 2027-01-09T12:18:53Z
+Encryption: https://www.karlsen.fr/.well-known/openpgpkey/hu/5cndseni3c7rxczmbppqz78bn1wcr114
+Preferred-Languages: en, no, fr
+Canonical: https://www.karlsen.fr/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTphQ9cga/mRWIKe8qkxouyvIh8ugUCadeLHQAKCRCkxouyvIh8
+uuGRAQDQcAWJDGzzJYjKh666QRA+V97Awtx2qEuFYRrM/xeXlwEA/Ts10Ub1jWzZ
+TSRxkfXjQDfgnPINgHPVFpc2FtG+xgs=
+=gDCt
+-----END PGP SIGNATURE-----

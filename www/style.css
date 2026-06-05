@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center whole table */
+table {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sytle prompt */
+.prompt td {
+    color: #ebdbb2;
+    vertical-align: bottom;
+}
+
+.prompt td.username {
+    color: #fabd2f;
+}
+
+.prompt td.hostname {
+    font-size: 200%;
+    color: #98971a;
+}
+
+.prompt td.dir {
+    color: #7ba46d;
+}
+
+/* Style social media links */
+tr.links {
+    text-align: center;
+}
+
+.links a {
+    padding: 1%;
+}
