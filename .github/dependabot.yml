@@ -1,0 +1,16 @@
+---
+version: 2
+
+updates:
+  # Keeps the SHA pins in .github/workflows current; without this they rot.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule: {interval: weekly}
+    commit-message: {prefix: 'ci'}
+    groups:
+      actions: {patterns: ['*']}
+
+  - package-ecosystem: docker
+    directory: /
+    schedule: {interval: weekly}
+    commit-message: {prefix: 'ci'}

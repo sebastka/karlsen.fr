@@ -5,10 +5,9 @@ set -eu
 main()
 {
     readonly address="$1"
-    readonly filename="$(get_filename "$address")"
 
     gpg --export "$address" \
-        >"www/.well-known/openpgpkey/hu/${filename}"
+        >"www/.well-known/openpgpkey/hu/$(get_filename "$address")"
 }
 
 # get_filename <email address>

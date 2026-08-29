@@ -4,7 +4,7 @@ set -eu
 main()
 {
     readonly contact='sebastian@karlsen.fr'
-    readonly key_filename="$(get_key_filename "$contact")"
+    key_filename="$(get_key_filename "$contact")"
 
     rm -f www/.well-known/security.txt
 
@@ -28,7 +28,9 @@ main()
 get_key_filename()
 {
     gpg-wks-client --print-wkd-hash "$1" \
-        | cut -d' ' -f1
+        | cut -d' ' -f1 \
+        | grep . \
+            || { printf -- 'Could not compute WKD hash for %s\n' "$1" >&2; exit 1; }
 }
 
 main
