@@ -4,7 +4,12 @@ name: Build and push
 on:
   workflow_dispatch:
   pull_request:
-  push: {branches: [master]}
+  push:
+    branches: [master]
+    paths-ignore:  # Do not build an image for changes that do not affect the image
+      - .github/**
+      - .yamllint.yaml
+      - README.md
 
 defaults:
   run:
