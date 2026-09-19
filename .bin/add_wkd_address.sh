@@ -1,13 +1,11 @@
 #!/bin/sh
 set -eu
 
-# ./add_wkd_address.sh <email address>
+# ./add_wkd_address.sh <e-mail address> <key fingerprint>
 main()
 {
-    readonly address="$1"
-
-    gpg --export "$address" \
-        >"www/.well-known/openpgpkey/hu/$(get_filename "$address")"
+    gpg --export "$2" \
+        >"www/.well-known/openpgpkey/hu/$(get_filename "$1")"
 }
 
 # get_filename <email address>

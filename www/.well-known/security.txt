@@ -2,14 +2,14 @@
 Hash: SHA512
 
 Contact: mailto:sebastian@karlsen.fr
-Expires: 2027-01-09T12:18:53Z
+Expires: 2027-06-19T17:35:40Z
 Encryption: https://www.karlsen.fr/.well-known/openpgpkey/hu/5cndseni3c7rxczmbppqz78bn1wcr114
 Preferred-Languages: en, no, fr
 Canonical: https://www.karlsen.fr/.well-known/security.txt
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTphQ9cga/mRWIKe8qkxouyvIh8ugUCadeLHQAKCRCkxouyvIh8
-uuGRAQDQcAWJDGzzJYjKh666QRA+V97Awtx2qEuFYRrM/xeXlwEA/Ts10Ub1jWzZ
-TSRxkfXjQDfgnPINgHPVFpc2FtG+xgs=
-=gDCt
+iHUEARYKAB0WIQTvRDUylUXYMdbpb701SVMUvlcdowUCaq6rzAAKCRA1SVMUvlcd
+o3t7AP9yewbDU8SSPkn0t2icwKMuv1vkCSpww3fqtTLWH9CSagEAzyY+eDdRUnYu
+Lucf9N/axrnHJmcfM8YYJG7P2pbUJQk=
+=1qig
 -----END PGP SIGNATURE-----
