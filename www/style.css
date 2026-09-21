@@ -28,7 +28,9 @@ table {
 }
 
 .prompt td.hostname {
-    font-size: 200%;
+    /* The banner is 44 characters wide; scale it with the viewport so it
+       still fits once a real viewport width is honoured on phones. */
+    font-size: min(200%, 2.5vw);
     color: #98971a;
 }
 
@@ -144,6 +146,13 @@ tr.links {
     margin: -0.5rem -0.5rem 0 1rem;
     padding: 0.1rem 0.5rem;
     line-height: 1;
+}
+
+/* The icon sprite defines symbols only and must never take up space.
+ * width/height carry the fix on their own: the page's CSP forbids inline
+ * style attributes, so display:none has to live here rather than on the tag. */
+#icon-sprite {
+    display: none;
 }
 
 /* Copy buttons */
