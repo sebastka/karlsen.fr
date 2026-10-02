@@ -1,0 +1,22 @@
+{
+  "avatars": [
+    {
+      "altText": "Portrait photograph of Sebastian Karlsen",
+      "animated": false,
+      "ratio": [
+        1,
+        1
+      ],
+      "tags": [],
+      "url": "/.well-known/avatars/default.jpg"
+    }
+  ],
+  "schemaVersion": [
+    0,
+    2,
+    0
+  ],
+  "source": {
+    "domain": "karlsen.fr"
+  }
+}

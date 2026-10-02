@@ -1,0 +1,33 @@
+{
+  "subject": "acct:sebastian@karlsen.fr",
+  "aliases": [
+    "mailto:sebastian@karlsen.fr",
+    "https://www.karlsen.fr/",
+    "https://karlsen.fr/"
+  ],
+  "links": [
+    {
+      "rel": "http://openid.net/specs/connect/1.0/issuer",
+      "href": "https://auth.karlsen.fr",
+      "titles": {
+        "en": "OpenID Connect issuer"
+      }
+    },
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "href": "https://www.karlsen.fr/",
+      "type": "text/html",
+      "titles": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "rel": "http://webfinger.net/rel/avatar",
+      "href": "https://www.karlsen.fr/.well-known/avatars/default.jpg",
+      "type": "image/jpeg",
+      "titles": {
+        "en": "Portrait photograph"
+      }
+    }
+  ]
+}
